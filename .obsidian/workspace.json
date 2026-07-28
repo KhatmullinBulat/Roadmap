@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Roadmap/Frontend/JavaScript.md",
+                "file": "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/V8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript"
+              "title": "V8"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Roadmap/Frontend/JavaScript.md",
+                "file": "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/V8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из JavaScript"
+              "title": "Исходящие ссылки из V8"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Roadmap/Frontend/JavaScript.md",
+                "file": "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/V8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура JavaScript"
+              "title": "Структура V8"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,9 +199,19 @@
   },
   "active": "a10251f20edcd07a",
   "lastOpenFiles": [
+    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/Что такое движок JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/V8.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/2. История языка.md",
+    "01 Roadmap/Frontend/JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/ECMAScript.md",
+    "Что такое JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке",
+    "02 Knowledge/Frontend/JavaScript",
+    "02 Knowledge/Frontend",
     "01 Roadmap/Frontend/TypeScript.md",
     "Templates/Roadmap Technology.md",
-    "01 Roadmap/Frontend/JavaScript.md",
     "Что такое JavaScript?.md",
     "Без названия.md",
     "01 Roadmap/Frontend/TypeScript",
@@ -211,10 +221,6 @@
     "Templates/Knowledge Note.md",
     "Templates",
     "06 Resources",
-    "05 Daily",
-    "04 Career",
-    "03 Projects",
-    "02 Knowledge",
-    "01 Roadmap"
+    "05 Daily"
   ]
 }
