@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae08f7b226c9bf57",
+        "id": "14e5f614ca62d8bf",
         "type": "tabs",
         "children": [
           {
-            "id": "75b5218ec06c44ea",
+            "id": "d817d379d16ce81c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
+                "file": "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Что такое JavaScript"
+              "title": "2. Правила наименования"
             }
           }
         ]
@@ -197,17 +197,26 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "1fbe22f95e31d9ab",
+  "active": "d817d379d16ce81c",
   "lastOpenFiles": [
-    "Шпаргалка по технологиям.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/2. История языка.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/3. ECMAScript.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/4. Какие есть версии и чем они отличаются.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
     "01 Roadmap/Frontend/JavaScript.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/3. SpiderMonkey.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/2. V8.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/4. Область видимости.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/3. Hoisting.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
+    "02 Knowledge/Computer Science/Переменная.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/4. Какие есть версии и чем они отличаются.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/1. Что такое движок JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/2. V8.md",
+    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/3. SpiderMonkey.md",
+    "02 Knowledge/Computer Science",
+    "Ресурсы/limitations.svg",
+    "Ресурсы",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/3. ECMAScript.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/2. История языка.md",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
+    "Шпаргалка по технологиям.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript",
     "Что такое JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке",
@@ -216,14 +225,10 @@
     "01 Roadmap/Frontend/TypeScript.md",
     "Templates/Roadmap Technology.md",
     "Что такое JavaScript?.md",
-    "Без названия.md",
     "01 Roadmap/Frontend/TypeScript",
     "01 Roadmap/Frontend/JavaScript",
     "01 Roadmap/Frontend",
     "Templates/Inbox Note.md",
-    "Templates/Knowledge Note.md",
-    "Templates",
-    "06 Resources",
-    "05 Daily"
+    "Templates/Knowledge Note.md"
   ]
 }
