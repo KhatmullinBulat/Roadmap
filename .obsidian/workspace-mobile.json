@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Шпаргалка по технологиям.md",
+                "file": "Интересные статьи.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Шпаргалка по технологиям"
+              "title": "Интересные статьи"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Интересные статьи.md",
     "Шпаргалка по технологиям.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/Что такое движок JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/V8.md",
