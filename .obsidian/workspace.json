@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
+                "file": "02 Knowledge/Frontend/JavaScript/3. Все о переменных/6. Область видимости.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Правила наименования"
+              "title": "6. Область видимости"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab53b2efc73f25d2",
@@ -199,11 +200,14 @@
   },
   "active": "d817d379d16ce81c",
   "lastOpenFiles": [
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
     "01 Roadmap/Frontend/JavaScript.md",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/4. Область видимости.md",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/3. Hoisting.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/6. Область видимости.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/3. Var.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/5. Hoisting.md",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/4. Константы.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
+    "Интересные статьи.md",
     "02 Knowledge/Computer Science/Переменная.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/4. Какие есть версии и чем они отличаются.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/1. Что такое движок JavaScript.md",
