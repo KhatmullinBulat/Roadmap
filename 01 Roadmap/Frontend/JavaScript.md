@@ -34,6 +34,7 @@ created: 27.07.2026
 ---
 
 ## Примитивные типы данных
+- [ ] [[Типы данных]]
 - [ ] [[String]]
 - [ ] [[Undefined]]
 - [ ] [[Number]]
@@ -45,6 +46,7 @@ created: 27.07.2026
 ---
 
 ## Объекты
+- [ ] [[Object]]
 - [ ] [[Оператор typeof]]
 - [ ] [[Прототип объекта]]
 - [ ] [[Прототипное наследование]]
@@ -213,8 +215,8 @@ created: 27.07.2026
 
 # Ресурсы
 
-Документация:
+Документация: https://developer.mozilla.org, https://ru.wikipedia.org, https://doka.guide/js/closures/
 
 Статьи:
 
-Книги:
+Книги: https://learn.javascript.ru/
