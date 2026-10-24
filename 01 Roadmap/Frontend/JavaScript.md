@@ -207,6 +207,9 @@ created: 27.07.2026
 ---
 
 
+Нужно будет почитать про все операторы js так как неясно куда девать оператор `in` и `void`. https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators
+
+
 # Практика
 
 
