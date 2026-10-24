@@ -179,7 +179,6 @@
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
