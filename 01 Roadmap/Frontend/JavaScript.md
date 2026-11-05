@@ -55,7 +55,7 @@ created: 27.07.2026
 
 ---
 
-## Приведение типов 
+## Приведение типов
 - [ ] [[Явное преобразование типов]]
 - [ ] [[Неявное преобразование типов]]
 
@@ -76,10 +76,11 @@ created: 27.07.2026
 ---
 
 ## Сравнение на равенство
-### Операторы сравнения значений 
+### Операторы сравнения значений
 - [ ] [[==]]
 - [ ] [[===]]
 - [ ] [[Object.is]]
+- [ ] [[in]]
 ### Алгоритмы проверки на равенство
 - [ ] [[isLooselyEqual]]
 - [ ] [[isStrictlyEqual]]
@@ -113,6 +114,7 @@ created: 27.07.2026
 - [ ] [[Условные операторы]]
 - [ ] [[Comma operator]]
 - [ ] [[Унарные операторы]]
+- [ ] [[void]]
 - [ ] [[Операторы присваивания]]
 - [ ] [[Операторы сравнения]]
 - [ ] [[Арифметические операторы]]
@@ -208,7 +210,7 @@ created: 27.07.2026
 ---
 
 
-Нужно будет почитать про все операторы js так как неясно куда девать оператор `in` и `void`. https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators
+`in` относится к операторам сравнения: он проверяет наличие свойства в объекте. `void` — унарный оператор, который вычисляет выражение и возвращает `undefined`. Полный список операторов: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators
 
 # Практика
 
@@ -218,8 +220,8 @@ created: 27.07.2026
 
 # Ресурсы
 
-Документация: https://developer.mozilla.org, https://ru.wikipedia.org, https://doka.guide/js/closures/
+Документация: https://developer.mozilla.org/ru/docs/Web/JavaScript и https://doka.guide/js/
 
-Статьи:
+Учебник: https://learn.javascript.ru/
 
-Книги: https://learn.javascript.ru/
+Спецификация: https://tc39.es/ecma262/
