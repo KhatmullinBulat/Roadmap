@@ -1,9 +1,10 @@
 ---
 type: roadmap
 category:
-status:
-priority:
-created:
+status: planned
+priority: medium
+created: <% tp.date.now("YYYY-MM-DD") %>
+tags: []
 ---
 # Что нужно знать
 
@@ -20,4 +21,4 @@ created:
 
 Статьи:
 
-Книги:
+Книги и курсы:

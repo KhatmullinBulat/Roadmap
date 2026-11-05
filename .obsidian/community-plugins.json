@@ -4,5 +4,6 @@
   "obsidian-icon-folder",
   "obsidian-git",
   "obsidian-excalidraw-plugin",
-  "dataview"
+  "dataview",
+  "obsidian-linter"
 ]
