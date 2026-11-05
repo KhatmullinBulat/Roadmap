@@ -11,14 +11,10 @@
             "id": "0ffbbc0571537b1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/String.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "String"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -80,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ab53b2efc73f25d2",
@@ -195,49 +190,52 @@
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
   "active": "0ffbbc0571537b1c",
   "lastOpenFiles": [
+    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/6. Встроенные объекты.md",
+    "01 Roadmap/Frontend/JavaScript.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/5. Прототипное наследование.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/4. Прототип Object.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/3. Прототип объекта.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/1. Object.md",
+    "Ресурсы/proto-animal-rabbit.svg",
+    "object-prototype-empty 1.svg",
+    "Ресурсы/object-prototype-empty.svg",
+    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты/2. Оператор typeof.md",
+    "Ресурсы/object-user-empty.svg",
+    "Без названия.md",
+    "02 Knowledge/Frontend/JavaScript/5. Объекты",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
+    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/BigInt.md",
+    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Symbol.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/String.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Number.md",
     "02 Knowledge/Computer Science/Битовая маска.md",
-    "01 Roadmap/Frontend/JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Undefined.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Null.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/6. Область видимости.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/3. Var.md",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/5. Hoisting.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/4. Константы.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
     "Интересные статьи.md",
     "02 Knowledge/Computer Science/Переменная.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/4. Какие есть версии и чем они отличаются.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/1. Что такое движок JavaScript.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/2. V8.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/3. SpiderMonkey.md",
     "02 Knowledge/Computer Science",
     "Ресурсы/limitations.svg",
     "Ресурсы",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/3. ECMAScript.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/2. История языка.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
-    "Шпаргалка по технологиям.md",
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript",
-    "Что такое JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке",
     "02 Knowledge/Frontend/JavaScript",
     "02 Knowledge/Frontend",
-    "01 Roadmap/Frontend/TypeScript.md",
-    "01 Roadmap/Frontend/TypeScript",
-    "01 Roadmap/Frontend/JavaScript"
+    "01 Roadmap/Frontend/TypeScript"
   ]
 }
