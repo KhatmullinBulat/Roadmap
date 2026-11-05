@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "86784d62f42e6c06",
+        "id": "a6aeca9a42fcdaca",
         "type": "tabs",
         "children": [
           {
-            "id": "0ffbbc0571537b1c",
+            "id": "b5e8fab9abb713f5",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "0ffbbc0571537b1c",
+  "active": "b5e8fab9abb713f5",
   "lastOpenFiles": [
+    "Без названия.canvas",
     "02 Knowledge/Frontend/JavaScript/5. Объекты/6. Встроенные объекты.md",
     "02 Knowledge/Frontend/JavaScript/5. Объекты/5. Прототипное наследование.md",
     "02 Knowledge/Frontend/JavaScript/5. Объекты/4. Прототип Object.md",
@@ -221,7 +222,6 @@
     "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/1. Что такое движок JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/4. Какие есть версии и чем они отличаются.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/3. ECMAScript.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/2. История языка.md",
     "Ресурсы/proto-animal-rabbit.svg",
     "object-prototype-empty 1.svg",
     "Ресурсы/object-prototype-empty.svg",
