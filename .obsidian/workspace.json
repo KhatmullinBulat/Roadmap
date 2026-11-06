@@ -217,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -238,7 +238,7 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "1fbe22f95e31d9ab",
+  "active": "03f6782ae26c28c3",
   "lastOpenFiles": [
     "copilot/copilot-conversations/agent__я_через_телефон_случайно_все_сломал._На_gi@20261106_192104.md",
     "00 Dashboard.md",
