@@ -176,13 +176,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "03f6782ae26c28c3",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 655.2734375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +205,34 @@
       "bases:Создать новую базу": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "b5e8fab9abb713f5",
+  "active": "03f6782ae26c28c3",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__Я_вчера_сделал_вроде_как_подходящие_template@20261106_142342.md",
+    "copilot/copilot-conversations",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/obsidian-markdown/references",
+    "copilot/skills/obsidian-markdown",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "01 Roadmap/Frontend/JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/6. Приведение типов/3. Неявное.md",
     "02 Knowledge/Frontend/JavaScript/6. Приведение типов/2. Явное.md",
@@ -212,35 +245,13 @@
     "Templates/Project Note.md",
     "Templates/Inbox Note.md",
     "Templates/Daily Note.md",
-    "02 Knowledge/Frontend/JavaScript/6. Приведение типов",
     "Без названия.canvas",
     "02 Knowledge/Frontend/JavaScript/5. Объекты/6. Встроенные объекты.md",
     "02 Knowledge/Frontend/JavaScript/5. Объекты/5. Прототипное наследование.md",
-    "02 Knowledge/Frontend/JavaScript/5. Объекты/4. Прототип Object.md",
-    "02 Knowledge/Frontend/JavaScript/5. Объекты/3. Прототип объекта.md",
-    "02 Knowledge/Frontend/JavaScript/5. Объекты/2. Оператор typeof.md",
-    "02 Knowledge/Frontend/JavaScript/5. Объекты/1. Object.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Undefined.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Symbol.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/String.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Number.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Null.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/BigInt.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
     "Ресурсы/proto-animal-rabbit.svg",
     "object-prototype-empty 1.svg",
     "Ресурсы/object-prototype-empty.svg",
     "Ресурсы/object-user-empty.svg",
-    "02 Knowledge/Frontend/JavaScript/5. Объекты",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных",
-    "02 Knowledge/Computer Science",
-    "Ресурсы/limitations.svg",
-    "Ресурсы",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript",
-    "02 Knowledge/Frontend/JavaScript/1. О языке",
-    "02 Knowledge/Frontend/JavaScript",
-    "02 Knowledge/Frontend"
+    "Ресурсы/limitations.svg"
   ]
 }
