@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -211,7 +211,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "paperize:Export active note as PDF": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -225,8 +224,10 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "612d7451746c404c",
+  "active": "c3d9a24dd125e9de",
   "lastOpenFiles": [
+    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.pdf",
+    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
     "00 Inbox/Шпаргалка по технологиям.md",
     "00 Inbox/Интересные статьи.md",
     "02 Knowledge/Computer Science/Битовая маска.md",
@@ -253,7 +254,6 @@
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
     "copilot/skills/obsidian-markdown/references",
-    "copilot/skills/obsidian-markdown",
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "02 Knowledge/Frontend/JavaScript/6. Приведение типов/3. Неявное.md",
@@ -261,8 +261,6 @@
     "Templates/Knowledge Note.md",
     "00 Dashboard.md",
     "Без названия.md",
-    "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
-    "Templates/Roadmap Technology.md",
     "Без названия.canvas",
     "Ресурсы/proto-animal-rabbit.svg",
     "object-prototype-empty 1.svg",
