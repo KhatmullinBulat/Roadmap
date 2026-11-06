@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Knowledge/Frontend/JavaScript/6. Приведение типов/1. Явное преобразование типов.md",
+                "file": "02 Knowledge/Frontend/JavaScript/6. Приведение типов/1. Преобразование типов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Явное преобразование типов"
+              "title": "1. Преобразование типов"
             }
           }
         ]
@@ -200,12 +200,13 @@
   },
   "active": "b5e8fab9abb713f5",
   "lastOpenFiles": [
-    "Templates/Knowledge Note.md",
     "01 Roadmap/Frontend/JavaScript.md",
-    "02 Knowledge/Frontend/JavaScript/6. Приведение типов/2. Неявное преобразование типов.md",
+    "02 Knowledge/Frontend/JavaScript/6. Приведение типов/3. Неявное.md",
+    "02 Knowledge/Frontend/JavaScript/6. Приведение типов/2. Явное.md",
+    "02 Knowledge/Frontend/JavaScript/6. Приведение типов/1. Преобразование типов.md",
+    "Templates/Knowledge Note.md",
     "00 Dashboard.md",
     "Без названия.md",
-    "02 Knowledge/Frontend/JavaScript/6. Приведение типов/1. Явное преобразование типов.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
     "Templates/Roadmap Technology.md",
     "Templates/Project Note.md",
@@ -227,7 +228,6 @@
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/BigInt.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/6. Область видимости.md",
     "Ресурсы/proto-animal-rabbit.svg",
     "object-prototype-empty 1.svg",
     "Ресурсы/object-prototype-empty.svg",
