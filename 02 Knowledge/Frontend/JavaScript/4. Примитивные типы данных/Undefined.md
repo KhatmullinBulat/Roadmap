@@ -1,3 +1,20 @@
+---
+type: knowledge
+area: Frontend
+topic: JavaScript · типы данных
+status: draft
+created: 2026-11-05
+tags: []
+---
+
+# Undefined
+
+## Кратко
+
+`undefined` — примитивное значение «значения нет»: его получают неинициализированные `let`/`var`, функции без `return`, отсутствующие свойства и обращение за границей массива. Это состояние «не задано», поэтому вручную присваивать `undefined` не принято.
+
+## Главное
+
 `undefined` — примитивное значение, которое обычно означает «значение отсутствует». Оно появляется, когда JavaScript ещё не получил результат.
 ```js
 let user
@@ -24,3 +41,49 @@ const label = value ?? "не задано"
 ```
 
 `typeof undeclaredName` — особый безопасный случай: он вернёт `"undefined"` даже для необъявленного имени. Однако это не работает для переменной `let` или `const` во временной мёртвой зоне — там будет `ReferenceError`.
+
+### Откуда ещё берётся `undefined`
+
+```js
+const arr = [1, 2]
+arr[5] // undefined — индекс вне массива
+
+const { missing } = { a: 1 }
+missing // undefined — деструктуризация отсутствующего свойства
+
+[1].find((n) => n > 10) // undefined — ничего не найдено
+
+function noReturn() {}
+noReturn() // undefined
+```
+
+Важно: `undefined` — это значение, а не «ошибка». Проверка `if (value)` отличается от `value === undefined`: `0`, `""` и `null` тоже ложные. Если нужна именно проверка отсутствия, используйте `??` или явное сравнение.
+
+```js
+function greet(name = "гость") {
+  return `Привет, ${name}`
+}
+greet(undefined) // "Привет, гость" — параметр по умолчанию срабатывает
+greet(null) // "Привет, null" — null не заменяется
+```
+
+Это же правило объясняет, почему `??` важен: он срабатывает только на `null` и `undefined`, а `||` — на любое ложное значение вроде `0`.
+
+## Практика
+
+- [ ] Собрать все случаи, когда появляется `undefined`, в таблицу
+- [ ] Сравнить `value ?? "default"` и `value || "default"` на `0`, `""` и `null`
+- [ ] Проверить, почему `greet(null)` не берёт значение параметра по умолчанию
+
+## Связанные темы
+
+- [[Null]]
+- [[Типы данных]]
+- [[2. Оператор typeof]]
+- [[Boolean]]
+
+## Ресурсы
+
+- Документация: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/undefined
+- Статьи: https://doka.guide/js/undefined/ · https://learn.javascript.ru/types
+

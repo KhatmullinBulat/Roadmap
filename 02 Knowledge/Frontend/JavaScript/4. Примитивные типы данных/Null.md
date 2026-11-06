@@ -1,3 +1,20 @@
+---
+type: knowledge
+area: Frontend
+topic: JavaScript · типы данных
+status: draft
+created: 2026-11-05
+tags: []
+---
+
+# Null
+
+## Кратко
+
+`null` — примитив для намеренного обозначения «значения нет». Его возвращают функции вроде `getElementById()`, если результата нет. `typeof null` исторически даёт `"object"`, а `null == undefined` — `true` при строгом `null === undefined` — `false`.
+
+## Главное
+
 `null` — примитивное значение, которое обычно используют для явного обозначения отсутствия объекта или значения. Это не «нулевой указатель» и не неинициализированная переменная.
 ```js
 let selectedUser = null
@@ -24,3 +41,50 @@ null == undefined // true
 ```
 
 Оператор `==` объединяет эти два случая специальным правилом, но в большинстве кода лучше использовать `===`. Если нужно намеренно проверить оба варианта отсутствия значения, удобнее `value == null` с комментарием или явное `value === null || value === undefined`.
+
+### `null` в операциях
+
+```js
+null + 1 // 1 — null преобразуется в 0
+null * 5 // 0
+Number(null) // 0
+Number(undefined) // NaN
+
+JSON.stringify({ value: null }) // '{"value":null}'
+JSON.stringify({ value: undefined }) // '{}'
+```
+
+`null` при преобразовании к числу даёт `0`, а `undefined` — `NaN`. При сериализации в JSON `null` сохраняется, а `undefined`-свойство пропадает. Это важно при передаче данных по API.
+
+```js
+const settings = {
+  theme: null, // явно "не выбрано"
+  // fontSize: undefined — такое свойство пропадёт при JSON.stringify
+}
+
+settings.theme ?? "light" // "light"
+```
+
+Где использовать `null`, а где `undefined`:
+- **`undefined`** — когда значение ещё не задано, отсутствует по своей природе, возвращается функцией без `return`.
+- **`null`** — когда значение намеренно очищено или результат поиска не найден.
+- В API и JSON обычно используют именно `null`, потому что `undefined` не сериализуется.
+
+## Практика
+
+- [ ] Сравнить `JSON.stringify` объекта с `null` и `undefined` в свойствах
+- [ ] Проверить `typeof null` и объяснить, почему это историческая особенность
+- [ ] Написать функцию, возвращающую `null`, если элемент не найден, и обработать результат
+
+## Связанные темы
+
+- [[Undefined]]
+- [[Типы данных]]
+- [[2. Оператор typeof]]
+- [[Boolean]]
+
+## Ресурсы
+
+- Документация: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/null
+- Статьи: https://doka.guide/js/null-primitive/ · https://learn.javascript.ru/types
+
