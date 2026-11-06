@@ -80,7 +80,7 @@ settings.theme ?? "light" // "light"
 
 - [[Undefined]]
 - [[Типы данных]]
-- [[2. Оператор typeof]]
+- [[2. Оператор typeof | Оператор typeof]]
 - [[Boolean]]
 
 ## Ресурсы

@@ -89,8 +89,8 @@ class Range {
 ## Связанные темы
 
 - [[Типы данных]]
-- [[1. Object]]
-- [[2. Оператор typeof]]
+- [[1. Object | Object]]
+- [[2. Оператор typeof | Оператор typeof]]
 - [[String]]
 
 ## Ресурсы
