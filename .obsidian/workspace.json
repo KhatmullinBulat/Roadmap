@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Dashboard.md",
+                "file": "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Dashboard"
+              "title": "1. Что такое JavaScript"
             }
           }
         ],
@@ -238,8 +238,10 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "522ee0c316a9b7d3",
+  "active": "1fbe22f95e31d9ab",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__я_через_телефон_случайно_все_сломал._На_gi@20261106_192104.md",
+    "00 Dashboard.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/6. Приведение типов/3. Неявное.md",
     "02 Knowledge/Frontend/JavaScript/6. Приведение типов/2. Явное.md",
@@ -264,8 +266,6 @@
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/3. Var.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/2. Правила наименования.md",
     "copilot/copilot-conversations/agent__Я_вчера_сделал_вроде_как_подходящие_template@20261106_151059.md",
-    "02 Knowledge/Frontend/JavaScript/3. Все о переменных/1. Объявления переменных.md",
-    "02 Knowledge/Frontend/JavaScript/2. Движок JavaScript/3. SpiderMonkey.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.pdf",
     "copilot/copilot-conversations",
     "copilot/skills/json-canvas/LICENSE",
