@@ -90,6 +90,7 @@
   "enableRecentConversations": true,
   "maxRecentConversations": 30,
   "enableSavedMemory": true,
+  "quickCommandModelKey": "b73a866c-68cd-4cda-b0b4-dfdbd26916a5",
   "quickCommandIncludeNoteContext": true,
   "autoAcceptEdits": false,
   "diffViewMode": "split",
@@ -103,8 +104,8 @@
     "backends": {
       "opencode": {
         "defaultModel": {
-          "baseModelId": "opencode/deepseek-v4.1-flash-free",
-          "effort": "high"
+          "baseModelId": "deepseek/deepseek-flash",
+          "effort": null
         }
       }
     },
@@ -162,6 +163,20 @@
       "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
       "addedAt": 1793956653447,
       "apiKeyKeychainId": null
+    },
+    "3426dd37-1efd-40dd-ba7b-7450616e050f": {
+      "providerType": "openai-compatible",
+      "displayName": "DeepSeek",
+      "baseUrl": "https://api.deepseek.com",
+      "enableCors": false,
+      "requiresApiKey": true,
+      "origin": {
+        "kind": "byok",
+        "catalogProviderId": "deepseek"
+      },
+      "providerId": "3426dd37-1efd-40dd-ba7b-7450616e050f",
+      "addedAt": 1793958621865,
+      "apiKeyKeychainId": "copilot-v154588ca-provider-deepseek-api-key"
     }
   },
   "configuredModels": [
@@ -254,13 +269,78 @@
       },
       "configuredModelId": "658727ca-7181-450f-8130-8d41616b09fc",
       "configuredAt": 1793956655309
+    },
+    {
+      "configuredModelId": "b73a866c-68cd-4cda-b0b4-dfdbd26916a5",
+      "providerId": "3426dd37-1efd-40dd-ba7b-7450616e050f",
+      "info": {
+        "id": "deepseek-flash",
+        "displayName": "DeepSeek V4.1 Flash 1017",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 393216
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-10-17",
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cacheRead": 0.003
+        }
+      },
+      "configuredAt": 1793958621870
+    },
+    {
+      "configuredModelId": "c8651f4f-e97a-4520-a2b6-e1f8f046e9bc",
+      "providerId": "3426dd37-1efd-40dd-ba7b-7450616e050f",
+      "info": {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 393216
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-13",
+        "cost": {
+          "input": 0.66,
+          "output": 1.98,
+          "cacheRead": 0.022
+        }
+      },
+      "configuredAt": 1793958621870
     }
   ],
   "backends": {
     "opencode": {
       "enabledModels": [
-        "d69dcf81-b5b9-4e71-a9eb-6f05c57f1531",
-        "7db9c4d4-fb59-486b-8667-6b12843933bc"
+        "c8651f4f-e97a-4520-a2b6-e1f8f046e9bc",
+        "b73a866c-68cd-4cda-b0b4-dfdbd26916a5"
+      ]
+    },
+    "chat": {
+      "enabledModels": [
+        "b73a866c-68cd-4cda-b0b4-dfdbd26916a5",
+        "c8651f4f-e97a-4520-a2b6-e1f8f046e9bc"
       ]
     }
   },
