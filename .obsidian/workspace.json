@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -224,7 +224,7 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "1fbe22f95e31d9ab",
+  "active": "03f6782ae26c28c3",
   "lastOpenFiles": [
     "01 Roadmap/Frontend/JavaScript.md",
     "02 Knowledge/Frontend/JavaScript/7. Структуры данных/1. Индексированные коллекции/2. TypedArray.md",
