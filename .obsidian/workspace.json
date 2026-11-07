@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
+                "file": "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Null.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Типы данных"
+              "title": "Null"
             }
           }
         ],
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab53b2efc73f25d2",
@@ -221,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655.2734375
+    "width": 655.2734375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,6 +242,8 @@
   },
   "active": "522ee0c316a9b7d3",
   "lastOpenFiles": [
+    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
+    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
     "02 Knowledge/Frontend/JavaScript/1. О языке/1. Что такое JavaScript.md",
     "copilot/copilot-conversations/agent__я_через_телефон_случайно_все_сломал._На_gi@20261106_192104.md",
     "00 Dashboard.md",
@@ -257,9 +261,7 @@
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/String.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Number.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Null.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Boolean.md",
     "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/BigInt.md",
-    "02 Knowledge/Frontend/JavaScript/4. Примитивные типы данных/Типы данных.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/6. Область видимости.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/5. Hoisting.md",
     "02 Knowledge/Frontend/JavaScript/3. Все о переменных/4. Константы.md",
