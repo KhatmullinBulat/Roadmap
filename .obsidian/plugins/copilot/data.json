@@ -51,8 +51,8 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
-  "lastShownStartupVersion": null,
+  "lastDismissedVersion": "4.0.20",
+  "lastShownStartupVersion": "4.0.20",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -106,7 +106,8 @@
         "defaultModel": {
           "baseModelId": "deepseek/deepseek-flash",
           "effort": "none"
-        }
+        },
+        "defaultMode": "auto"
       }
     },
     "debugFullFrames": true,
@@ -246,15 +247,6 @@
     {
       "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
       "info": {
-        "id": "opencode/crouton-alpha-free",
-        "displayName": "opencode/Crouton Alpha Free"
-      },
-      "configuredModelId": "e0fe1f1f-7091-47fa-9dd4-c824d03b9bb8",
-      "configuredAt": 1793956655308
-    },
-    {
-      "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
-      "info": {
         "id": "opencode/flint-40b-free",
         "displayName": "opencode/Flint 40B Free"
       },
@@ -337,6 +329,33 @@
       },
       "configuredModelId": "0c0989dd-7fa8-4818-8957-11d0c58230a6",
       "configuredAt": 1794061073283
+    },
+    {
+      "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
+      "info": {
+        "id": "opencode/hy4-flash-free",
+        "displayName": "opencode/Hy4 flash Free"
+      },
+      "configuredModelId": "0a869e77-0a43-489e-8e35-fea3aa4b51ea",
+      "configuredAt": 1794818836299
+    },
+    {
+      "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "7fee9c00-9d27-4859-8a42-2c363e543870",
+      "configuredAt": 1794818836299
+    },
+    {
+      "providerId": "6ec93e14-e14d-4240-a560-69475dd751bc",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "7d4ae905-624b-4934-aba8-37ff0333151c",
+      "configuredAt": 1794818836299
     }
   ],
   "backends": {
